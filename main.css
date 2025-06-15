@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body {
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.clock{
+    border: 5px solid white;
+    padding: 200px;
+    border-radius: 50%;
+}
+.number{
+    position: absolute;
+    color: white;
+    font-size: 50px;
+}
+.n12 {
+    margin-top: -205px;
+    margin-left: -23px;
+}
+.n6{
+    margin-left: -15px;
+    margin-top: 120px;
+}
+.n3{
+    margin-left: 150px;
+    margin-top: -30px;
+}
+.n9{
+    margin-left: -175px;
+    margin-top: -40px;
+}
+.n1{
+    margin-left: 65px;
+    margin-top: -175px;
+}
+.n2{
+    margin-left: 120px;
+    margin-top: -110px;
+}
+.n4{
+    margin-left: 120px;
+    margin-top: 55px;
+}
+.n5{
+    margin-left: 60px;
+    margin-top: 105px;
+}
+.n7{
+    margin-left: -90px;
+    margin-top: 100px;
+}
+.n8{
+    margin-left: -145px;
+    margin-top: 40px;
+}
+.n10{
+    margin-left: -165px;
+    margin-top: -120px;
+}
+.n11{
+    margin-left: -105px;
+    margin-top: -175px;
+}
+.span{
+    position: absolute;
+    width: 7px;
+    height: 120px;
+    background-color: red;
+    margin-top: -100px;
+    transform-origin: bottom center;
+    rotate: 0deg;
+}
+.dumaloq{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    margin-top: 30px;
+    border-radius: 50%;
+}
